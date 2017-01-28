@@ -1,0 +1,3 @@
+md c:\foldername..\   to create a folder
+start c:\forldername..\ to open a folder from cmd
+rd c:\foldername..\ to remove a folder
