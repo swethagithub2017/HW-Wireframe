@@ -1,0 +1,127 @@
+body {
+	
+	background-color: #ffffff;
+	background-image: url('../images/concrete_seamless.png');
+	font-family: 'arial''Arial', 'Helvetica Neue', Helvetica, sans-serif box-sizing: border-box;
+	font-color: #777777;
+	
+	
+}
+ hr {
+ 	margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+ }
+
+.About,.Contact ,.Portfolio {
+	color: grey;
+	float: right;
+	padding:10px;
+	width: 70px;
+	font-size: 18px;
+	font-color: #777777;
+	font-family: arial;
+
+	}
+
+.connect {
+    background-color: white;
+    text-align:center;
+	float:right;
+	height: 150px;
+	border-style: solid ;
+	width: 260px;
+	color:white;
+	margin:10px;
+	padding: 30px;
+	font-family: times;
+	margin-right: 220px;
+	margin-top: 50px;
+	
+
+  
+}
+
+
+.profile {
+	background-color: white;
+	float:left;
+   width: 580px;
+    height: 400px;
+    border: solid white;  
+    display: inline-block;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.pic {
+	float: left;
+	
+	margin-right: 20px;
+   margin-top: 40px;
+}
+
+
+
+.box {
+    font-weight: bold;
+    font-family: Times;
+    font-size: 25px;
+    height:20px;
+	
+	
+	background-color: white;
+	width:1300px;
+	border-color: #cccccc;
+	margin-bottom: 20px;
+	
+	text-align: center;
+    padding: 30px 20px;
+}
+ footer {
+	outline: solid 5px;
+	outline-color: teal;
+	clear: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #666666;
+	text-align: center;
+	color: white;
+	margin-top: 600px;
+
+}
+
+.icons {
+	margin-top: 20px;
+
+}
+
+p {
+	color: #777777;
+    width: 400px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+h1 {
+	float:left;
+	text-align:left;
+    background-color: #4aaaa5 ;
+    color: white;
+    padding: 10px;
+    width:250px;
+    margin-bottom: 20px;
+    margin-left: 95px;
+
+}
+
+ h2 {
+ 	color: #4aaaa5;
+ }
+
+ 

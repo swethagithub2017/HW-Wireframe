@@ -1,0 +1,153 @@
+body {
+	
+	background-color: #ffffff;
+	background-image: url('../images/concrete_seamless.png');
+	 box-sizing: border-box;
+	font-color: #777777;
+	
+	
+}
+ hr {
+ 	margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+ }
+
+h1 {
+	position:absolute;
+	text-align:left;
+    background-color: #4aaaa5 ;
+    color: white;
+    padding: 10px;
+    width:250px;
+    margin-top: 40px;
+    margin-left: 45px;
+
+
+}
+
+
+.About,.Contact ,.Portfolio {
+	color: grey;
+	float: right;
+	padding:10px;
+	width: 70px;
+	font-size: 18px;
+	font-color: #777777;
+	font-family: arial;
+	margin-top: 10px;
+   
+	}
+
+.connect {
+    background-color: white;
+    text-align:center;
+	float:right;
+	height: 150px;
+	border-style: solid ;
+	width: 260px;
+	color:white;
+	margin:10px;
+	padding: 30px;
+	font-family: times;
+	margin-right: 220px;
+	margin-top: 50px;
+	
+
+  
+}
+
+
+.box {
+    font-weight: bold;
+    font-family: Times;
+    font-size: 25px;
+    height:20px;
+	background-color: white;
+	width:1300px;
+	border-color: #cccccc;
+	margin-bottom: 40px;
+
+	text-align: center;
+    padding: 30px 20px;
+}
+ 
+
+footer {
+	outline: solid 5px;
+	outline-color: teal;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #666666;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+	margin-right: 10px;
+    width: 1300px;
+    padding-right: 50px;
+
+
+	
+}
+
+
+h2{
+  	color: #4aaaa5;
+  	font-size: 30px;
+    margin-left: 20px;
+ }
+
+h3{
+
+	color: #4aaaa5;
+  	font-size: 20px;
+}
+
+
+
+.icons {
+	margin-top: 20px;
+
+}
+
+article {
+padding-left: 30px;
+float: left;
+display: inline-block;
+border-style: solid;
+color: white;
+height: 900px;
+width:500px;
+margin-left: 45px;
+background-color: white;
+
+}
+
+div {
+	float:left; 
+	margin-right: 45px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+
+
+}
+
+.images {
+	font-size: 20px;
+    
+	float:left;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.icons {
+	margin-top: 20px;
+	
+	margin-left: 50px;
