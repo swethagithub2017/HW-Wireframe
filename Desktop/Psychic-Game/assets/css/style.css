@@ -1,0 +1,17 @@
+body {
+	box-sizing: border-box;
+	border-style: solid double;
+	border-color: black;
+	height: 400px;
+	width: 400px;
+	
+}
+
+h1 {
+	color: red;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+}
