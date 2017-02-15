@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Psychic-Game!!</title>
+    <h1>The Psychic Game!!</h1>
+  </head>
+  <body>
+
+    
+    <div id="game">
+      <h2>Guess What Letter I'm Thinking of !</h2>
+    </div>
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript">
+
+      
+      var computerChoices = ["a","b","c","d"];
+
+      
+      var wins = 0;
+      var losses = 0;
+      var guessLeft = 4;
+
+      
+      document.onkeyup = function(event) {
+
+        
+        var userGuess = event.key;
+
+        
+        var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+        
+        if ((userGuess === "a") || (userGuess === "b") || (userGuess === "c") || (userGuess === "d")) {
+
+          
+          if ((userGuess === "a") && (computerGuess === "a")) {
+            wins++;
+            guessLeft--;
+          }
+          
+          else if ((userGuess === "b") && (computerGuess === "b")) {
+            wins++;
+            guessLeft--;
+          }
+          else if ((userGuess === "c") && (computerGuess === "c")) {
+            wins++;
+            guessLeft--;
+           }
+          else if ((userGuess === "d") && (computerGuess === "d")) {
+            wins++;
+            guessLeft--;
+          }
+          
+          else if ((userGuess === "a") && (computerGuess === "b")) {
+            losses++;
+            guessLeft--;
+          }
+
+          else if ((userGuess === "a") && (computerGuess === "c")) {
+            losses++;
+            guessLeft--;
+          }
+          else if ((userGuess === "a") && (computerGuess === "d")) {
+            losses++;
+            guessLeft--;
+          }
+          else if ((userGuess === "b") && (computerGuess === "c")) {
+            losses++;
+            guessLeft--;
+          }
+          else if ((userGuess === "b") && (computerGuess === "d")) {
+            losses++;
+            guessLeft--;
+          }
+          else if ((userGuess === "a") && (computerGuess === "b")) {
+            losses++;
+            guessLeft--;
+          }
+          else if ((userGuess === "c") && (computerGuess === "d")) {
+            losses++;
+            guessLeft--;
+          }          
+          }
+          // Here we create the HTML that will be injected into our div and displayed on the page.
+          var html = "<h2>Guess What Letter I'm Thinking of !</h2>" +
+          "<h3>wins: " + wins + "</h3>" +
+          "<h3>losses: " + losses + "</h3>" +
+          "<h3>guessLeft: " + guessLeft + "</h3>";
+
+
+          // Injecting the HTML we just created into our div and updating the game information on our page.
+          document.querySelector("#game").innerHTML = html;
+
+        
+      };
+
+    </script>
+
+  </body>
+</html>
