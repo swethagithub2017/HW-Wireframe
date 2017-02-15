@@ -1,0 +1,13 @@
+p {
+	 font-family: 'Lobster', cursive;
+font-size: 20px;
+
+font-weight: bold;
+
+line-height: 10px;
+letter-spacing: 12px;
+}
+
+a:hover{color:red;}
+a:focus{color:black;}
+a:active{color:blue;}

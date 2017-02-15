@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Psychic-Game</title>
+    <h1>The Psychic Game</h1>
+  </head>
+  <body>
+
+    
+    <div id="game">
+      <h2>Press a,b,c to start playing!</h2>
+    </div>
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript">
+
+      
+      var computerChoices = ["a","b","c"];
+
+      
+      var wins = 0;
+      var losses = 0;
+      
+
+      
+      document.onkeyup = function(event) {
+
+        
+        var userGuess = event.key;
+
+        
+        var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+        
+        if ((userGuess === "a") || (userGuess === "b") || (userGuess === "c")) {
+
+          
+          if ((userGuess === "a") && (computerGuess === "a")) {
+            wins++;
+          }
+          else if ((userGuess === "a") && (computerGuess === "b")) {
+            losses++;
+          }
+          else if ((userGuess === "b") && (computerGuess === "c")) {
+            losses++;
+          }
+          else if ((userGuess === "c") && (computerGuess === "c")) {
+            wins++;
+          }
+          else if ((userGuess === "b") && (computerGuess === "b")) {
+            wins++;
+          }
+  
+          
+          // Here we create the HTML that will be injected into our div and displayed on the page.
+          var html = "<h2>Press a,b,c to start playing!</h2>" +
+          "<h3>wins: " + wins + "</h3>" +
+          "<h3>losses: " + losses + "</h3>" ;
+
+
+          // Injecting the HTML we just created into our div and updating the game information on our page.
+          document.querySelector("#game").innerHTML = html;
+
+        }
+      };
+
+    </script>
+
+  </body>
+</html>

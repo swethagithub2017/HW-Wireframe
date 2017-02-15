@@ -1,0 +1,15 @@
+content width  400px
+left padding  20
+right padding 10
+left border 22
+righ border 22
+leftmargin : 50
+right: 30
+
+
+
+elemet height:
+contnet height : 440
+
+total width 554
+total element height 569
