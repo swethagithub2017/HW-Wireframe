@@ -1,0 +1,27 @@
+.login{
+	width:400px;
+}
+
+.jumbotron {
+	background-color: orange;
+	color: black;
+	height: 200px;
+	
+}
+
+body {
+	font-family: times;
+	background-color: teal;
+}
+
+h1 {
+     text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 35px;
+
+}
+
+.form-control {
+	margin: 20px;
+}

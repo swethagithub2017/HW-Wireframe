@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Ingredients</title>
+
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/ingredientsstyle.css">
+
+  <!-- jQuery -->
+  <script src="http://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+</head>
+
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+
+
+<div class="container">
+
+  <div class="col-sm-2"></div>
+
+  <div class="col-sm-8">
+    
+    <div class="row">
+          <div class="jumbotron">
+          <h2>Ingredients</h2>
+          
+          </div>
+        </div>
+    
+    <div class="row">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Items List</h3>
+        </div>
+
+        <div class="panel-body">
+          <table class="table">
+            <thead>
+            <tr>
+              <th>Item Name</th>
+              <th>Item Quantity</th>
+              <th>Current Date</th>
+              <th>Expiry Date</th>
+              
+            </tr>
+            </thead>
+
+            <tbody id="ingredientsTable"></tbody>
+
+          </table>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Add Item</h3>
+        </div>
+
+        <div class="panel-body">
+          <form>
+
+            <div class="form-group">
+              <label for="itemName">Item Name</label>
+              <input type="text" class="form-control" id="itemName">
+            </div>
+            <div class="form-group">
+              <label for="itemQuantity">Item Quantity</label>
+              <input type="text" class="form-control" id="itemQuantity">
+            </div>
+             <div class="form-group">
+                <label for="currentDate">Current Date (ex:18/03/17)</label>
+                <input type="date" class="form-control" id="currentDate">
+              </div>
+
+              <div class="form-group">
+                <label for="expiryDate">Expiry Date (ex:21/03/17)</label>
+                <input type="date" class="form-control" id="expiryDate">
+              </div>
+
+            <button type="submit" class="btn btn-primary" id="itemSubmitButton">Item Submit</button>
+                        
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-2"></div>
+
+</div> 
+
+
+
+
+<script src="assets/javascript/ingredients.js"></script>
+</body>
+</html>

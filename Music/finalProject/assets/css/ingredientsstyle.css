@@ -1,0 +1,38 @@
+.jumbotron {
+	background-color: white;
+
+
+}
+
+
+.panel-body {
+
+	background-color: lightgreen;
+	color: black;
+}
+body {
+	background-image: url('../images/Cover4.JPG');
+	border-color: red;
+    font-family: times;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 65px;
+    font-family: times;
+}
+
+h3 {
+
+	
+	color: white;
+	
+	font-weight: bold;
+	font-size: 40px;
+
+}
